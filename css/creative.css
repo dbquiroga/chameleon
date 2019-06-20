@@ -4500,6 +4500,7 @@ input[type="button"].btn-block {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  text-align: center;
 }
 
 .navbar-toggler {
@@ -10626,6 +10627,12 @@ hr.light {
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #540bc8 !important;
+}
+
+@media (max-width: 500px){
+ #mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 1.9rem !important;
+  }
 }
 
 @media (min-width: 992px) {
